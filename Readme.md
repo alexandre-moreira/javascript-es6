@@ -42,3 +42,10 @@
 
 # Slide
 - Criação do plugin de slide
+
+# Ingles
+
+[] Times
+[] 8 as 22 segunda sexta
+[] 9 17.
+
