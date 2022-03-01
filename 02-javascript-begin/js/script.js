@@ -1,25 +1,53 @@
-// Qual o resultado da seguinte expressão
-var total = 10 + 5 * 2 / 2 + 20; // 35
+// Verifique se sua idade é maior do que a de algum parente
+// Dependendo do resultado coloque no console 'É maior', 'É igual' ou 'É menor'.
 
-// Crie duas expressões que retorne NaN
-var num1 = '10 e';
-console.log(num1++);
+var minhaIdade = 41;
+var idadeTia = 45;
 
-var div = 'Dividir' / 2;
-console.log(div)
+if(minhaIdade > idadeTia){
+    console.log('É maior');
+}else if(minhaIdade == idadeTia){
+    console.log('É Igual');
+}else{
+    console.log('É menor');
+}
 
-// Somar uma string '200' com o numero 50 e retornar 250
+// Qual valor é retornado na seguinte expressão.
+var expressao = (5 - 2 ) && (5 - ' ') && (5 - 2); // 3
+console.log(expressao);
 
-var soma = +'200' + 50;
-console.log(soma);
+// Verifique se as seguintes variáveis são Truthy ou Falsy
+var nome= 'Alex';
+var idade = 28;
+var possuiDoutorado = false;
+var empregoFuturo;
+var dinheiroNaConta = 0;
 
-// Incremente o número 5 e retorne o seu valor de incrementado
+console.log(!!nome, !!idade, !!possuiDoutorado, !!empregoFuturo, !!dinheiroNaConta);
 
-var valor = 5;
-console.log(++valor);
+// Compare o total de habitantes do Brasil com a China(valor em milhoes)
+var brasil = 207;
+var china = 1340;
 
-// Como dividir o peso por 2?
-var numero = +'80' / 2;
-var unidade = 'kg';
-var peso = numero + unidade
-console.log(peso);
+if(brasil > china){
+    console.log('Brasil tem mais habitantes');
+}else{
+    console.log('Brasil tem menos habitantes');
+}
+
+// O que irá aparecer no console?
+
+if(('Gato' === 'gato') && (5 > 2)){
+    console.log('Verdadeiro');
+}else{
+    console.log('Falso')
+}
+    /* R= Falso */
+
+// O que irá aparecer no console?
+if(('Gato' === 'gato') || (5 > 2)){
+    console.log('Gato' && 'Cão');
+}else{
+    console.log('Falso')
+}
+     /* R= Cão */
